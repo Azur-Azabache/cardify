@@ -14,12 +14,12 @@ $(document).ready(()=>{
     this.filter('img').each(function() {
       var image = $(this);
       image.wrap('<figure></figure>');
-
+      image.after('<figcaption></figcaption>');
+      $('figcaption').text($('img').attr('alt'));   
     });
  
     return this;
   };
- 
  
   // Usage example:
   $('img').cardify();
