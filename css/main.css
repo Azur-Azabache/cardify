@@ -1,1 +1,16 @@
 /* Estilos de CSS */
+body{
+    background-color: rgb(253, 229, 15);
+    color: rgba(27, 27, 27, 0.952);
+}
+header{
+    background-color: white;
+    color: black;
+    height: 65px;
+    margin-bottom: 15px;
+    box-shadow: 10px 2px 8px #2e2d2d;
+}
+section{
+    font-size: 20px;
+    font-weight: 700;
+}
