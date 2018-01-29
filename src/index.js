@@ -15,7 +15,8 @@ $(document).ready(()=>{
       var image = $(this);
       image.wrap('<figure></figure>');
       image.after('<figcaption></figcaption>');
-      image.next().text(image.attr('alt'));   
+      image.next().text(image.attr('alt')); 
+      $('figure').addClass('card text-white bg-success col-sm-7');  
     });
  
     return this;
