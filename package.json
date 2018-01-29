@@ -1,0 +1,15 @@
+{
+  "name": "mirepocardify",
+  "version": "1.0.0",
+  "description": " \" plugin cardify\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Elizabeth Segura y Pamela\"",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
