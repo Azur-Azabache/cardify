@@ -1,10 +1,10 @@
 /* Estilos de CSS */
 body{
-    background-color: rgb(253, 229, 15);
+    background-color:white;
     color: rgba(27, 27, 27, 0.952);
 }
 header{
-    background-color: white;
+    background: linear-gradient(to top left, #40b1fc 0%, #72e8f8 100%);
     color: black;
     height: 65px;
     margin-bottom: 15px;
