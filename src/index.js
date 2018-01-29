@@ -15,7 +15,7 @@ $(document).ready(()=>{
       var image = $(this);
       image.wrap('<figure></figure>');
       image.after('<figcaption></figcaption>');
-      $('figcaption').text($('img').attr('alt'));   
+      image.next().text(image.attr('alt'));   
     });
  
     return this;
