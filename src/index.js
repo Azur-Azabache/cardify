@@ -11,8 +11,8 @@ $(document).ready(()=>{
   // $('.container').find('p').cambiaColor({color: 'brown'});
   
   $.fn.cardify = function() {
-    this.filter('img').each(function() {
-      var image = $(this);
+    this.each(function() {
+      let image = $(this);
       image.wrap('<figure></figure>');
       image.after('<figcaption></figcaption>');
       image.next().text(image.attr('alt')); 
@@ -23,5 +23,5 @@ $(document).ready(()=>{
   };
  
   // Usage example:
-  $('img').cardify();
+  // $('img').cardify();
 });
