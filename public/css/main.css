@@ -14,3 +14,21 @@ section{
     font-size: 20px;
     font-weight: 700;
 }
+.top{
+  z-index: 1000;
+}
+.effect{
+  transform:translate(0px,0px);
+  -webkit-transition: all 500ms ease-in-out; // IE 9
+  -ms-transition: all 500ms ease-in-out; // Safari and Chrome
+}
+.effect:hover{
+transform: translate(0px, -100px);
+-ms-transform: translate(0px, -100px);
+-webkit-transform: translate(0px, -100px);
+}
+.center{
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
