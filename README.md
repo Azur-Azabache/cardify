@@ -6,13 +6,13 @@
 * Pamela Rojas
 
 ## Descripción:
-Se implemento un plugin de jQuery que busca todas las
+Se implementó un plugin de jQuery que busca todas las
 imágenes que encuentra dentro del _contenedor_ y las reemplaza por un nuevo elemento `<figure>` que contiene la imagen (`<img>`) además se muestra un `<figcaption>`
 con el texto del atributo `alt` de la imagen al hacer hover.
 
 ## Herramientas utilizadas:
 * ECMAScript 6
-* Babel
+* CSS 
 * HTML 5
 * Bootstrap
 
