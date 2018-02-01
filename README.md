@@ -1,62 +1,43 @@
 # Cardify
 
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
-
-***
-## Participantes:
+## Desarrolladoras:
 
 * Elizabeth Segura
 * Pamela Rojas
 
 ## Descripción:
-Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
-imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
-elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
-con el texto del atributo `alt` de la imagen.
+Se implemento un plugin de jQuery que busca todas las
+imágenes que encuentra dentro del _contenedor_ y las reemplaza por un nuevo elemento `<figure>` que contiene la imagen (`<img>`) además se muestra un `<figcaption>`
+con el texto del atributo `alt` de la imagen al hacer hover.
 
-## Herramientas a utilizar:
+## Herramientas utilizadas:
 * ECMAScript 6
 * Babel
 * HTML 5
-* JSON
-
-## Flujo de trabajo
-
-**SEMANA 1**
-* Formar equipo.
-* Elegir reto.
-* Hacer fork de reto modelo o crear nuevo repo si has propuesto un reto no propuesto por Laboratoria.
-* Escribir primera versión del README.md con una descripción general de la librería así como ejemplos (snippets) de uso y configuración  (si fuera necesario).
-* Crear issues y milestones que sirvan como hoja de ruta (roadmap)
-* Inicializar proyecto con npm init y git init.
-* Crear index.html con ejemplo principal de uso.
-
-**SEMANA 2**
-* Agregar tests que describan la API de tu librería y los casos de uso esperados.
-* Implementar funcionalidad esencial.
-* Hacer code review con tus compañeras e instructorxs.
-
-**SEMANA 3**
-* Completar implementación de librería y ejemplo principal (usando la librería).
-* Hacer code review con tus compañeras e instructorxs.
-* Preparar tu demo/presentación.
-* Publicar el ejemplo principal (index.html) en GitHub pages.
+* Bootstrap
 
 ## Instalación
 
 ### Global (navegador)
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="path-to-cardify.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+<script src="../src/index.js"></script>
+<script src="../src/app.js"></script>
 ```
 
 ## Uso
-
 ```js
-// `container` es el selector del contenedor donde se buscarán todas las
 // imágenes a ser procesadas.
-$(container).cardify({});
+$('img').cardify();
+```
+## Ejemplo
+```html
+// imágenes que necesitan el plugin.
+<div class="container">
+    <img src="assets/images/front2.jpg" alt="front-end1">
+    <img src="assets/images/frontend1.png" alt="front-end2">
+    <img src="assets/images/great-frontend.png"alt="front-end3">
+    <img src="assets/images/laptop.jpg" alt="laptop">
+</div>
 ```

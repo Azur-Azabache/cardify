@@ -1,7 +1,6 @@
 $(document).ready(()=>{
-
   $.fn.cardify = function() {
-    this.filter("img").each(function() {
+    this.filter('img').each(function() {
       let image = $(this);
       image.wrap('<figure></figure>');
       image.after('<figcaption></figcaption>');
@@ -10,10 +9,9 @@ $(document).ready(()=>{
       $('figcaption').addClass('center');
       $('img').addClass('top');
     });
-  $("img").hover(function() {
-  $(this).addClass('effect');
-});
+    $('img').hover(function() {
+      $(this).addClass('effect');
+    });
     return this;
   };
-
 });
