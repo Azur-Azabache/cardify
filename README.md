@@ -42,5 +42,4 @@ $('img').cardify();
 </div>
 ```
 ## Demostración
-<img src="public/assets/images/gif.gif" width="350">
-  ![imagen](public/assets/images/gif.gif)
+<img src="public/assets/images/gif.gif">
