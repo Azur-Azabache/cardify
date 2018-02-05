@@ -1,5 +1,6 @@
 $(document).ready(()=>{
   $('#btn').on('click', function() {
-  $('img').cardify();
+  $('img').cardify()
+  $('#btn').off()
 });
 });
