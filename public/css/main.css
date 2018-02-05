@@ -1,16 +1,65 @@
 /* Estilos de CSS */
 body{
     background-color:white;
-    color: rgba(27, 27, 27, 0.952);
+    color: #143833;
+    box-sizing: border-box;
 }
 header{
-    background: linear-gradient(to top left, #40b1fc 0%, #72e8f8 100%);
-    color: black;
-    height: 65px;
-    margin-bottom: 15px;
-    box-shadow: 10px 2px 8px #2e2d2d;
+  /* background: #97CDDA; */
+    background-color: #09B89E;
+    color: #143833;
+    padding-top: 25px;
+    box-shadow: 4px 4px 21px -2px #0a0a0a;
+}
+h1, header p{
+  margin-left: 8%;
 }
 section{
     font-size: 20px;
     font-weight: 700;
+}
+h1, h4, h3{
+  font-family: 'Pacifico', cursive;
+}
+p{
+  font-family: 'Cabin Condensed', sans-serif;
+}
+.title{
+  margin-left: 11%;
+}
+.text, .text2{
+  text-align: justify;
+  margin: 30px;
+  background-color: rgba(210, 250, 244, 0.712);
+  border: 1px solid rgba(169, 236, 226, 0.993);
+  box-shadow: 2px 2px 8px -2px rgba(112, 150, 144, 0.993);
+  padding: 10px;
+  
+}
+.text{
+  margin-left: 15%;
+}
+.top{
+  z-index: 1000;
+}
+.effect{
+  transform:translate(0px,0px);
+}
+.effect:hover{
+transform: translate(0px, -100px);
+}
+
+.effect2{
+  transform:translate(0px, 0px);
+}
+.effect2:hover{
+  filter: sepia(100%);
+}
+.center{
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+.buttons{
+  margin-right:10px;
 }

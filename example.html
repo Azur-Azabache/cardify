@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous">
+  <link rel="stylesheet" href="public/css/main.css">
+  <title>Cardify</title>
+</head>
+<body>
+  <header>
+    <h1 class="">Cardify</h1>
+    <p class="">Plug-in para imágenes</p>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 text text-center">
+        <h4>¿Cómo lo instalo?</h4>
+        <hr>
+        <p>Descargar el siguiente <a href="#">script</a> y enlazar en su archivo html las rutas: </p>
+        <p>&lt;script src="http://code.jquery.com/jquery-3.3.1.min.js"&gt;</p>
+        <p>&lt;script src="cardify.js"&gt;</p>
+      </div>
+      <div class="col-lg-4 text2 text-center">
+        <h4>¿Cómo lo uso?</h4>
+        <hr>
+        <p>Utilizar el siguiente código para aplicar 'Cardify' a nuestras imágenes:</p>
+        <p>$(document).ready(()=>{
+          $('img').cardify();
+        });
+      </p>
+    </div>
+  </div>
+</div>
+<br>
+<section class="container-fluid">
+  <div class="row">
+    <div class="title col-sm-7">
+      <h3>Cardify en acción:</h3>
+      <hr>
+    </div>
+    <div class="col-sm-1 buttons">
+      <a id="btn" class="btn btn-info btn-md active" role="button" aria-pressed="true">Ver Cardify 1</a> 
+    </div>
+    <div class="col-sm-1 buttons">
+      <a id="btn2" class="btn btn-info btn-md active" role="button" aria-pressed="true">Ver Cardify 2</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <img src="public/assets/images/imagen1.jpg" alt="Canadá">
+      <img src="public/assets/images/imagen2.jpg" alt="Invierno">
+      <img src="public/assets/images/imagen3.jpg" alt="Selva">
+      <img src="public/assets/images/imagen4.jpg" alt="Cielo">
+    </div>
+  </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+<script src="src/app.js"></script>
+<script src="src/index.js"></script>
+</body>
+</html>

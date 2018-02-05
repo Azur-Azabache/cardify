@@ -4,12 +4,25 @@
   "description": " \" plugin cardify\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --presets env src -d public/js"
   },
   "author": "\"Elizabeth Segura y Pamela\"",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azur-Azabache/cardify.git"
+  },
+  "keywords": [
+    "plug",
+    "in"
+  ],
+  "bugs": {
+    "url": "https://github.com/Azur-Azabache/cardify/issues"
+  },
+  "homepage": "https://github.com/Azur-Azabache/cardify#readme"
 }
