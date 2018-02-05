@@ -12,7 +12,7 @@ con el texto del atributo `alt` de la imagen al hacer hover.
 
 ## Herramientas utilizadas:
 * ECMAScript 6
-* CSS 
+* CSS
 * HTML 5
 * Bootstrap
 
@@ -41,3 +41,6 @@ $('img').cardify();
     <img src="assets/images/laptop.jpg" alt="laptop">
 </div>
 ```
+## Demostración
+<img src="public/assets/images/gif.gif" width="350">
+  ![imagen](public/assets/images/gif.gif)
